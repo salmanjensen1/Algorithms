@@ -17,7 +17,7 @@ struct data{
     long long vertex;
     long long weight;
 
-    bool operator <(const data &obj) const
+    bool operator < (const data &obj) const
     {
         return obj.weight < weight;
     }
